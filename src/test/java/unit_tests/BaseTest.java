@@ -8,7 +8,8 @@ public class BaseTest {
 
     Calculator calculator = new Calculator();
 
-    double[] setOfSourceNumbers = {5.5, 1, -5.3, -19, 0};
+    static final double[] setOfSourceNumbers = {5.5, 1, -5.3, -19, 0};
+    static final int invalidValue = 100500;
 
     @BeforeMethod
     public void beforeTest() {
@@ -37,7 +38,7 @@ public class BaseTest {
                 {5, 12},
                 {15, -3},
                 {6, 1},
-                {10, -5,},
+                {10, -5},
         };
     }
 }

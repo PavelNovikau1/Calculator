@@ -2,19 +2,17 @@ package calculator;
 
 public class Calculator {
 
-    public double summation(double firstNum, double secondNum) {
-        return firstNum + secondNum;
-    }
+    public double summarize(double firstNum, double secondNum) {return firstNum + secondNum;}
 
-    public double subtraction(double firstNum, double secondNum) {
+    public double subtract(double firstNum, double secondNum) {
         return firstNum - secondNum;
     }
 
-    public double multiplication(double firstNum, double secondNum) {
+    public double multiply(double firstNum, double secondNum) {
         return firstNum * secondNum;
     }
 
-    public double division(double firstNum, double secondNum) {
+    public double divide(double firstNum, double secondNum) {
         return firstNum / secondNum;
     }
 }
